@@ -15,10 +15,19 @@
     <!-- <link rel="stylesheet" href="/assets/css/app.css"> -->
     {% endblock %}
   </head>
-  <body>
+  <body bgcolor="#081426">
     {% block content %}{% endblock %}
     {% block js %}
     <!-- <script src="/assets/js/app.js"></script> -->
     {% endblock %}
   </body>
+  
+  <nav class="flex space-x-4 justify-center text-gray-500 uppercase text-sm">
+    <a class="cabinet-component__rsv-logo" href="https://rsv.ru">
+      <img src="/logo_rsv.svg" alt="rsv" class="h-20 w-20 mb-4">
+    </a>
+    <a class="cabinet-component__minek-logo" href="https://www.economy.gov.ru/">
+      <img src="/logo_minek.png" alt="minek" class="h-20 w-20 mb-3">
+    </a>
+  </nav>
 </html>
