@@ -1,3 +1,5 @@
+![](https://github.com/EgorLedyaev/kda_vk_hackathon/blob/main/backend/storage/public/logo.svg)
+
 # Требования & Зависимости Backend:
 
 Чтобы использовать решение kda_vk_hackathon, вам понадобятся:
