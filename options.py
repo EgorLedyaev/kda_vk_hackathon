@@ -12,7 +12,8 @@ def get_options(args=None):
     parser.add_argument(
         '--action', default='', help='What to do: train, evaluate, predict')
     parser.add_argument(
-        '--idx', default=[], help='Indices to predict')
+        '--idx', default='', help='Indices to predict')
     opts = parser.parse_args(args)
-    opts.idx = [int(item) for item in opts.idx.split(',')]
+    if len(opts.idx):
+        opts.idx = [int(item) for item in opts.idx.split(',')]
     return opts
