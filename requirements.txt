@@ -1,6 +1,6 @@
 argparse
 numpy
 pandas
-sklearn
+scikit-learn
 joblib
 tqdm
