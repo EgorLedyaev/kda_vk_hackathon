@@ -1,0 +1,5 @@
+/* Put your CSS here */
+.fa-angle-double-right {
+    position: fixed; /* Фиксированное положение */
+    right: 10px; /* Расстояние от правого края окна браузера */
+   }

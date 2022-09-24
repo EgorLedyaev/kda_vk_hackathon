@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% block title %}Welcome on KDA Solution v 1.0.1{% endblock %}
+
+{% block content %}
+<div class="h-screen flex flex-col items-center justify-center">
+  <img src="/logo.svg" alt="KDA Logo" class="h-25 w-25 mb-7">
+
+  <nav class="flex space-x-4 justify-center text-gray-500 uppercase text-sm">
+    <a href="https://github.com/EgorLedyaev/kda_vk_hackathon" class="px-3 py-2 hover:text-indigo-700">
+      Документация
+    </a>
+
+    <a href="https://github.com/EgorLedyaev/kda_vk_hackathon" class="px-3 py-2 hover:text-indigo-700">
+      GitHub
+    </a>
+  </nav>
+  <meta charset="utf-8">
+  <title>Фиксированное меню</title>
+  <link rel="stylesheet" href="static/goToResult.css">
+  <body>
+    <div class="menu">Меню</div>
+    <div class="text"></div>
+   </body>
+  <br>
+  <nav class="flex space-x-2 justify-center text-gray-500 uppercase text-sm">
+      <link rel="stylesheet" href="static/style.css">
+      <form action="/" method="POST">
+        {{ csrf_field }}
+
+        <label> Входной Json </label>
+
+        <textarea name="inputJson" >{{inputData}}</textarea>
+
+        <input type="submit" class="form-submit-button" value="Построить решение">
+    </form>
+   
+  </nav>
+  <nav class="flex space-x-3 justify-center text-gray-500 uppercase text-sm">
+    <br>
+    <p>Accuracy: </p>
+    <br>
+  </nav>
+  <nav class="flex space-x-4 justify-center text-gray-500 uppercase text-sm">
+    <form>
+      
+    {% if isValid %}
+        <link rel="stylesheet" href="static/style.css">
+    {% endif %}
+        <label>Json Результата</label>
+
+        <textarea name="outputJson">{{outputData}}</textarea>
+        
+      </form>
+    
+   </nav>
+</div>
+
+{% endblock %}

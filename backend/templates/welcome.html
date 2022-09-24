@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% block title %}Решение команды KDA{% endblock %}
+{% block title %}Welcome on Masonite 4{% endblock %}
 
 {% block content %}
 <div class="h-screen flex flex-col items-center justify-center">
@@ -11,19 +11,17 @@
     </a>
 
     <a href="https://github.com/EgorLedyaev/kda_vk_hackathon" class="px-3 py-2 hover:text-indigo-700">
-      GitHub 
+      GitHub
     </a>
   </nav>
- 
-  <link rel="stylesheet" href="style.css">
-  <div class= "text-gray-500 uppercase text-sm items-center justify-center" id="drop_file_zone" ondrop="upload_file(event)" ondragover="return false">
-      <div id="drag_upload_file">
-        <p>Выберите файл</p>
-      <input type="file" accept=".fson" id="selectfile">
-    </div>
-  </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="app.js"></script>
+  <nav class="flex space-x-4 justify-center text-gray-500 uppercase text-sm">
+    <nav class="flex space-x-4 justify-center text-gray-500 uppercase text-sm">
+      <a class="cabinet-component__minek-logo" href="">
+        <img src="/qrcode.png" alt="kda" class="h-40 w-40 mb-3">
+      </a>
+    </nav>
+  </nav>
+  
 </div>
 
 {% endblock %}

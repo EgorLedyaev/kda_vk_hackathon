@@ -13,4 +13,8 @@ function file_explorer() {
         fileobj = document.getElementById('selectfile').files[0];
         ajax_file_upload(fileobj);
     };
+
+    console.log("ups");
+    let userObj = JSON.parse(fileobj);
+    console.log("ups");
 }
