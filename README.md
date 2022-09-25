@@ -1,7 +1,7 @@
 ![](https://github.com/EgorLedyaev/kda_vk_hackathon/blob/main/backend/storage/public/logo.svg)
 
 
-<a href="https://drive.google.com/file/d/1bb4uoVznEImTt7DJehBVLVycWIaOocb_/view?usp=sharing" target="_blank"><img src="https://github.com/EgorLedyaev/kda_vk_hackathon/blob/main/backend/storage/public/qr_cast.png" width="200" height="200" border="10" alt="QR Screencast"/></a>     <a href="https://cloud.mail.ru/public/1tEm/rFZSUKjEu" target="_blank"><img src="https://github.com/EgorLedyaev/kda_vk_hackathon/blob/main/backend/storage/public/qr_pdf.png" width="200" height="200" alt="QR PDF">
+<a href="https://drive.google.com/file/d/1bb4uoVznEImTt7DJehBVLVycWIaOocb_/view?usp=sharing" target="_blank"><img src="https://github.com/EgorLedyaev/kda_vk_hackathon/blob/main/backend/storage/public/qr_cast.png" width="200" height="200" border="10" alt="QR Screencast"/></a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="https://cloud.mail.ru/public/1tEm/rFZSUKjEu" target="_blank"><img src="https://github.com/EgorLedyaev/kda_vk_hackathon/blob/main/backend/storage/public/qr_pdf.png" width="200" height="200" alt="QR PDF">
 
 # Пример использования
 
