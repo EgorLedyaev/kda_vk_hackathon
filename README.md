@@ -1,5 +1,7 @@
 ![](https://github.com/EgorLedyaev/kda_vk_hackathon/blob/main/backend/storage/public/logo.svg)
 
+
+<img src="https://github.com/EgorLedyaev/kda_vk_hackathon/blob/main/backend/storage/public/qr_cast.png" width="200" height="200">     <img src="https://github.com/EgorLedyaev/kda_vk_hackathon/blob/main/backend/storage/public/qr_pdf.png" width="200" height="200">
 # Пример использования:
 
 Скачиваем репозиторий
